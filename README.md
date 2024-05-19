@@ -1,7 +1,10 @@
-# Wooting
+
 # Wooting Proyecto final
 
 Proyecto final de desarrollo web
+
+4 VISTAS CREADAS, EL INDEX, EL PRODUCTOS, EL REGISTRO Y EL DE AYUDA.
+
 
 ## Main page
 
