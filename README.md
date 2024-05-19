@@ -23,3 +23,8 @@ Este login se encuentra en todas las vistas
 
 ## Help 
 ![image](https://github.com/cristianfgsda/Wooting/assets/163680997/62ec010e-9460-4bdc-9859-1bc2a2113772)
+
+## register
+
+![image](https://github.com/cristianfgsda/Wooting/assets/163680997/f36be544-7761-4c3a-8286-305aba93620f)
+
