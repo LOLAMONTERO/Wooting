@@ -1,0 +1,177 @@
+:root {
+  --color-primario: #1a1a1a;
+  --color-secundario: #4d4d4d;
+  --color-terciario: #e6e6e6;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.main-title {
+  text-align: center;
+  font-size: 80px;
+}
+
+header {
+  background-color: #000;
+  color: #fff;
+  padding: 10px 20px;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo img {
+  height: 40px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 8px 15px;
+  transition: background 0.3s;
+}
+
+nav ul li a:hover {
+  background: #333;
+  border-radius: 4px;
+}
+
+.header-icons a {
+  margin-left: 10px;
+  display: inline-block;
+}
+
+.header-icons img {
+  height: 24px;
+}
+
+.hero-banner {
+  background-image: url(/img/banner.png);
+  background-color: #f2f2f2;
+  height: 390px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.product-card {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+  height: 200px;
+  border-radius: 5px;
+  box-shadow: -2px 17px 15px -9px rgba(0, 0, 0, 0.541);
+  overflow: hidden;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.product-card img {
+  width: 50px; /* Ancho fijo para los iconos */
+  margin: 0 auto 10px; /* Centrar horizontalmente y agregar margen inferior */
+  width: 20%;
+  height: auto;
+  display: block;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  margin-left: 0;
+  margin-right: 200px;
+  padding-top: 15px;
+  display: block;
+  margin: 0 auto;
+}
+
+.product-card h3,
+.product-card p {
+  margin: 5px 0;
+  text-align: center;
+  color: var(--color-primario);
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+  transition: transform 0.3s ease;
+}
+
+.products-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 50px;
+}
+
+.login-card {
+  /* Mantenemos display: none; */
+  position: absolute;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  border-radius: 10px;
+  z-index: 1000;
+  width: 300px; /* Ancho fijo */
+  transition: transform 0.3s ease, opacity 0.3s ease;
+  /* Cambiamos transform para que aparezca desde la izquierda */
+  transform: translateX(-100%);
+  opacity: 0; /* Opacidad inicial para la animación */
+}
+
+.login-card.show {
+  /* Mantenemos display: block; */
+  /* Cambiamos transform para que aparezca en su posición final */
+  transform: translateY(-100);
+  transform: translateX(-95);
+  opacity: 1; /* Opacidad final para la animación */
+}
+
+.login-card h2 {
+  margin-top: 0;
+
+}
+
+.login-card label {
+  display: block;
+  margin: 10px 0 5px;
+}
+
+.login-card input {
+  width: 90%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.login-card button {
+  background-color: #ffcc00;
+  color: #000;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.login-card button:hover {
+  background-color: #e6b800;
+}

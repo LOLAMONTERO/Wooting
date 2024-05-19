@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/public/help.css" />
+    <title>Help</title>
+  </head>
+  <body>
+    <header>
+      <div class="header-content">
+        <div class="logo">
+          <img src="/public/img/Main_Logo_black.svg" alt="Wooting Logo" />
+        </div>
+        <nav>
+          <ul>
+            <li><a href="/views/index.html">Home</a></li>
+            <li><a href="/views/products.html">Our products</a></li>
+            <li><a href="/views/help.html">Help</a></li>
+          </ul>
+        </nav>
+        <div class="header-icons">
+          <!-- 
+      <a href="/products.html" id="user-icon"><img src="/img/cart-regular-24.png" alt="Cart" /></a>
+    -->
+          <a href="#" id="user-icon"
+            ><img src="/public/img/user-regular-24.png" alt="User"
+          /></a>
+        </div>
+      </div>
+    </header>
+    <main>
+      <h3 class="main-title">Hi, how can we help?</h3>
+      <section class="products-container">
+        <div class="product-card" id="icon-1">
+          <img src="/public/img/icon (1).png" alt="icon" />
+          <h3>Stock and delivery</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+        <div class="product-card" id="icon-2">
+          <img src="/public/img/icon (5).png" alt="icon" />
+          <h3>Quick start guides</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+        <div class="product-card" id="icon-3">
+          <img src="/public/img/icon (4).png" alt="icon" />
+          <h3>Wootility & game support</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+        <div class="product-card" id="icon-4">
+          <img src="/public/img/icon (3).png" alt="icon" />
+          <h3>Troubleshoot guides</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+        <div class="product-card" id="icon-5">
+          <img src="/public/img/icon (2).png" alt="icon" />
+          <h3>Technical guides</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+      </section>
+    </main>
+
+    <!-- Tarjeta de Login -->
+    <div id="login-card" class="login-card">
+      <h2>Iniciar Sesión</h2>
+      <form id="login-form">
+        <label for="username">Usuario</label>
+        <input type="text" id="username" name="username" required />
+        <label for="password">Contraseña</label>
+        <input type="password" id="password" name="password" required />
+        <div class="buttons">
+          <button type="submit">Entrar</button>
+          <button type="button" id="register-button">Registrarse</button>
+        </div>
+      </form>
+    </div>
+
+    <script src="/models/scripts.js"></script>
+  </body>
+</html>

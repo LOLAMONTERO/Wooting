@@ -1,0 +1,471 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.bebas-neue-regular {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+header {
+  background-color: #000;
+  color: #fff;
+  padding: 10px 20px;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo img {
+  height: 40px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 8px 15px;
+  transition: background 0.3s;
+}
+
+nav ul li a:hover {
+  background: #333;
+  border-radius: 4px;
+}
+
+.header-icons a {
+  margin-left: 10px;
+  display: inline-block;
+}
+
+.header-icons img {
+  height: 24px;
+}
+
+.hero {
+  background-color: #1a1a1a;
+  color: #fff;
+  padding: 50px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: left;
+}
+
+.hero-content {
+  display: flex;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.video {
+  flex: 2;
+  margin-top: 70px; /* Agrega un margen superior de 10px */
+}
+
+.video iframe {
+  width: 550px;
+  height: 300px;
+}
+
+.hero-text {
+  flex: 2;
+  padding: 20px;
+}
+
+.hero-text-h1 {
+  font-size: 50px;
+}
+
+.hero-text h1 {
+  margin-top: 0;
+  color: #ffcc00;
+}
+
+.hero-text p {
+  margin-bottom: 15px;
+}
+
+.order-now {
+  background-color: #ffcc00;
+  color: #000;
+  border: none;
+  padding: 15px 30px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.order-now:hover {
+  background-color: #e6b800;
+}
+
+.module {
+  background-color: #fff;
+  color: #000;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.module-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.learn-more {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.learn-more:hover {
+  background-color: #555;
+}
+
+.products {
+  display: flex;
+  justify-content: space-around;
+  padding: 50px 20px;
+  background-color: #f4f4f4;
+}
+
+.product {
+  background-color: #fff;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+
+.product img {
+  width: 60%;
+  max-width: 250px;
+  height: auto;
+  margin-bottom: 15px;
+}
+
+.product h3 {
+  margin: 10px 0;
+}
+
+.product p {
+  margin: 10px 0;
+}
+
+.product button {
+  background-color: #ff9900;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.product button:hover {
+  background-color: #e68a00;
+}
+
+.product:hover {
+  transform: translateY(-10px);
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.bebas-neue-regular {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+header {
+  background-color: #000;
+  color: #fff;
+  padding: 10px 20px;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo img {
+  height: 40px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 8px 15px;
+  transition: background 0.3s;
+}
+
+nav ul li a:hover {
+  background: #333;
+  border-radius: 4px;
+}
+
+.header-icons a {
+  margin-left: 10px;
+  display: inline-block;
+}
+
+.header-icons img {
+  height: 24px;
+}
+
+.hero {
+  background-color: #1a1a1a;
+  color: #fff;
+  padding: 50px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: left;
+}
+
+.hero-content {
+  display: flex;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.video {
+  flex: 2;
+  margin-top: 70px; /* Agrega un margen superior de 10px */
+}
+
+.video iframe {
+  width: 550px;
+  height: 300px;
+}
+
+.hero-text {
+  flex: 2;
+  padding: 20px;
+}
+
+.hero-text-h1 {
+  font-size: 50px;
+}
+
+.hero-text h1 {
+  margin-top: 0;
+  color: #ffcc00;
+}
+
+.hero-text p {
+  margin-bottom: 15px;
+}
+
+.order-now {
+  background-color: #ffcc00;
+  color: #000;
+  border: none;
+  padding: 15px 30px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.order-now:hover {
+  background-color: #e6b800;
+}
+
+.module {
+  background-color: #fff;
+  color: #000;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.module-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.learn-more {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.learn-more:hover {
+  background-color: #555;
+}
+
+.products {
+  display: flex;
+  justify-content: space-around;
+  padding: 50px 20px;
+  background-color: #f4f4f4;
+}
+
+.product {
+  background-color: #fff;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+
+.product img {
+  width: 60%;
+  max-width: 250px;
+  height: auto;
+  margin-bottom: 15px;
+}
+
+.product h3 {
+  margin: 10px 0;
+}
+
+.product p {
+  margin: 10px 0;
+}
+
+.product button {
+  background-color: #ff9900;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.product button:hover {
+  background-color: #e68a00;
+}
+
+.product:hover {
+  transform: translateY(-10px);
+}
+
+footer {
+  background-color: #000;
+  color: #fff;
+  padding: 20px;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact-info,
+.footer-links {
+  max-width: 200px;
+}
+
+.contact-info h2 {
+  margin: 10px 0;
+}
+
+.social-icons a {
+  margin: 0 5px;
+  display: inline-block;
+}
+
+.footer-links a {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  margin: 10px 0;
+}
+
+.footer-links a:hover {
+  color: #ffcc00;
+}
+/* Estilos para la tarjeta de login */
+.login-card {
+  /* Mantenemos display: none; */
+  position: absolute;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  border-radius: 10px;
+  z-index: 1000;
+  width: 300px; /* Ancho fijo */
+  transition: transform 0.3s ease, opacity 0.3s ease;
+  /* Cambiamos transform para que aparezca desde la izquierda */
+  transform: translateX(-100%);
+  opacity: 0; /* Opacidad inicial para la animación */
+}
+
+.login-card.show {
+  /* Mantenemos display: block; */
+  /* Cambiamos transform para que aparezca en su posición final */
+  transform: translateY(-100);
+  transform: translateX(-95);
+  opacity: 1; /* Opacidad final para la animación */
+}
+
+.login-card h2 {
+  margin-top: 0;
+
+}
+
+.login-card label {
+  display: block;
+  margin: 10px 0 5px;
+}
+
+.login-card input {
+  width: 90%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.login-card button {
+  background-color: #ffcc00;
+  color: #000;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.login-card button:hover {
+  background-color: #e6b800;
+}

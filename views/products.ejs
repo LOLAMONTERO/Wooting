@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Productos - Wooting</title>
+    <link rel="stylesheet" href="/public/products.css" />
+  </head>
+  <body>
+    <header>
+      <div class="header-content">
+        <div class="logo">
+          <img src="/public/img/Main_Logo_black.svg" alt="Wooting Logo" />
+        </div>
+        <nav>
+          <ul>
+            <li><a href="/views/index.html">Home</a></li>
+            <li><a href="/views/products.html">Our products</a></li>
+            <li><a href="/views/help.html">Help</a></li>
+          </ul>
+        </nav>
+        <div class="header-icons">
+          <a href="#" id="cart-icon"
+            ><img src="/public/img/cart-regular-24.png" alt="Cart"
+          /></a>
+          <a href="#" id="user-icon"
+            ><img src="/public/img/user-regular-24.png" alt="User"
+          /></a>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="module">
+        <div class="module-content">
+          <img src="/public/img/WOOTING 60HE+ module.png" alt="module" />
+          <h2>60HE+ Module available</h2>
+          <p>A standalone module of the 60HE, made for keyboard enthusiasts.</p>
+          <button class="learn-more">Learn more</button>
+        </div>
+      </section>
+
+      <section class="products">
+        <h2 class="available-products">Available products</h2>
+        <div class="product-list">
+          <div class="product">
+            <img src="/public/img/product-60he.png" alt="Wooting 60HE+" />
+            <div class="product-info">
+              <h3>WOOTING 60HE+</h3>
+              <p>Precio: $99</p>
+              <p>Lorem ipsum dolor sit amet consectetur adipiscing elit.</p>
+              <button class="add-to-cart">Agregar al carrito</button>
+            </div>
+          </div>
+          <div class="product">
+            <img src="/public/img/WOOTING 60HE+.png" alt="Wooting 80HE" />
+            <div class="product-info">
+              <h3>Wooting 80HE</h3>
+              <p>Precio: $99</p>
+              <p>Lorem ipsum dolor sit amet consectetur adipiscing elit.</p>
+              <button class="add-to-cart">Agregar al carrito</button>
+            </div>
+          </div>
+          <div class="product">
+            <img src="/public/img/WOOTING UwU.png" alt="Wooting UwU" />
+            <div class="product-info">
+              <h3>WOOTING UwU</h3>
+              <p>Precio: $99</p>
+              <p>Lorem ipsum dolor sit amet consectetur adipiscing elit.</p>
+              <button class="add-to-cart">Agregar al carrito</button>
+            </div>
+          </div>
+          <div class="product">
+            <img
+              src="/public/img/WOOTING 60HE+ module.png"
+              alt="Wooting Module"
+            />
+            <div class="product-info">
+              <h3>WOOTING MODULE</h3>
+              <p>Precio: $99</p>
+              <p>Lorem ipsum dolor sit amet consectetur adipiscing elit.</p>
+              <button class="add-to-cart">Agregar al carrito</button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <br />
+
+    <aside id="cart" class="cart">
+      <h2>Carrito de Compras</h2>
+      <ul id="cart-items"></ul>
+      <div class="cart-total">
+        <p>Total: $<span id="cart-total-amount">0.00</span></p>
+      </div>
+      <button id="checkout-button">Pagar</button>
+    </aside>
+
+    <footer>
+      <div class="footer-content">
+        <div class="contact-info">
+          <h2>WOOTING</h2>
+          <p>Questions, feedback or need help?</p>
+          <p>social@wooting.io</p>
+          <div class="social-icons">
+            <a href="#"
+              ><img src="/public/img/github-logo-24.png" alt="Social 1"
+            /></a>
+            <a href="#"
+              ><img src="/public/img/twitter-logo-24.png" alt="Social 2"
+            /></a>
+          </div>
+        </div>
+        <div class="footer-links">
+          <a href="#">Home</a>
+          <a href="#">Updates</a>
+          <a href="#">Wootility web</a>
+          <a href="#">Double movement</a>
+          <a href="#">Github</a>
+          <a href="#">About us</a>
+          <a href="#">Contact us</a>
+          <a href="#">Press & marketing</a>
+        </div>
+        <div class="footer-links">
+          <a href="#">Account</a>
+          <a href="#">Order status</a>
+          <a href="#">Help</a>
+          <a href="#">Privacy policy</a>
+          <a href="#">Customer review policy</a>
+          <a href="#">Shipping policy</a>
+          <a href="#">About us</a>
+          <a href="#">Warranty & Return policy</a>
+          <a href="#">Legal notice</a>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Tarjeta de Login -->
+    <div id="login-card" class="login-card">
+      <h2>Iniciar Sesión</h2>
+      <form id="login-form">
+        <label for="username">Usuario</label>
+        <input type="text" id="username" name="username" required />
+        <label for="password">Contraseña</label>
+        <input type="password" id="password" name="password" required />
+        <div class="buttons">
+          <button type="submit">Entrar</button>
+          <button type="button" id="register-button">Registrarse</button>
+        </div>
+      </form>
+    </div>
+
+    <script src="/models/products.js"></script>
+    <script src="/models/scripts.js"></script>
+  </body>
+</html>
