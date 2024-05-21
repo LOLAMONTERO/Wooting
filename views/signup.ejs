@@ -1,124 +1,111 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Sign Up - Wooting</title>
-    <link rel="stylesheet" href="/public/signup.css" />
-    <link
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
-      rel="stylesheet"
-    />
-  </head>
-  <body>
-    <header>
-      <div class="header-content">
-        <div class="logo">
-          <img src="/public/img/Main_Logo_black.svg" alt="Wooting Logo" />
-        </div>
-        <nav>
-          <ul>
-            <li><a href="/views/index.html">Home</a></li>
-            <li><a href="/views/products.html">Our products</a></li>
-            <li><a href="/views/help.html">Help</a></li>
-          </ul>
-        </nav>
-        <div class="header-icons">
-          <a href="#" id="cart-icon"
-            ><img src="/public/img/cart-regular-24.png" alt="Cart"
-          /></a>
-          <a href="#" id="user-icon"
-            ><img src="/public/img/user-regular-24.png" alt="User"
-          /></a>
-        </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sign Up - Wooting</title>
+  <link rel="stylesheet" href="/public/signup.css" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
+</head>
+<body>
+  <header>
+    <div class="header-content">
+      <div class="logo">
+        <img src="/public/img/Main_Logo_black.svg" alt="Wooting Logo" />
       </div>
-    </header>
+      <nav>
+        <ul>
+          <li><a href="/views/index.html">Home</a></li>
+          <li><a href="/views/products.html">Our products</a></li>
+          <li><a href="/views/help.html">Help</a></li>
+        </ul>
+      </nav>
+      <div class="header-icons">
+        <a href="#" id="cart-icon"><img src="/public/img/cart-regular-24.png" alt="Cart" /></a>
+        <a href="#" id="user-icon"><img src="/public/img/user-regular-24.png" alt="User" /></a>
+      </div>
+    </div>
+  </header>
 
-    <main>
-      <section class="signup">
-        <div class="signup-content">
-          <h2>Sign Up</h2>
-          <form id="signup-form">
-            <div class="input-group">
-              <label for="name">Name</label>
-              <div class="input-wrapper">
-                <i class="fas fa-user"></i>
-                <input type="text" id="name" name="name" required />
-              </div>
+  <main>
+    <section class="signup">
+      <div class="signup-content">
+        <h2>Sign Up</h2>
+        <form id="signup-form" method="POST" action="/register">
+          <div class="input-group">
+            <label for="name">Name</label>
+            <div class="input-wrapper">
+              <i class="fas fa-user"></i>
+              <input type="text" id="name" name="name" required />
             </div>
-
-            <div class="input-group">
-              <label for="email">Email</label>
-              <div class="input-wrapper">
-                <i class="fas fa-envelope"></i>
-                <input type="email" id="email" name="email" required />
-              </div>
-            </div>
-
-            <div class="input-group">
-              <label for="password">Password</label>
-              <div class="input-wrapper">
-                <i class="fas fa-lock"></i>
-                <input type="password" id="password" name="password" required />
-              </div>
-            </div>
-
-            <div class="input-group">
-              <label for="confirm-password">Confirm Password</label>
-              <div class="input-wrapper">
-                <i class="fas fa-lock"></i>
-                <input
-                  type="password"
-                  id="confirm-password"
-                  name="confirm-password"
-                  required
-                />
-              </div>
-            </div>
-
-            <button type="submit">Sign Up</button>
-          </form>
-        </div>
-      </section>
-    </main>
-
-    <footer>
-      <div class="footer-content">
-        <div class="contact-info">
-          <h2>WOOTING</h2>
-          <p>Questions, feedback or need help?</p>
-          <p>social@wooting.io</p>
-          <div class="social-icons">
-            <a href="#"
-              ><img src="/public/img/github-logo-24.png" alt="Social 1"
-            /></a>
-            <a href="#"
-              ><img src="/public/img/twitter-logo-24.png" alt="Social 2"
-            /></a>
           </div>
-        </div>
-        <div class="footer-links">
-          <a href="#">Home</a>
-          <a href="#">Updates</a>
-          <a href="#">Wootility web</a>
-          <a href="#">Double movement</a>
-          <a href="#">Github</a>
-          <a href="#">About us</a>
-          <a href="#">Contact us</a>
-          <a href="#">Press & marketing</a>
-        </div>
-        <div class="footer-links">
-          <a href="#">Account</a>
-          <a href="#">Order status</a>
-          <a href="#">Help</a>
-          <a href="#">Privacy policy</a>
-          <a href="#">Customer review policy</a>
-          <a href="#">Shipping policy</a>
-          <a href="#">About us</a>
-          <a href="#">Warranty & Return policy</a>
-          <a href="#">Legal notice</a>
+
+          <div class="input-group">
+            <label for="email">Email</label>
+            <div class="input-wrapper">
+              <i class="fas fa-envelope"></i>
+              <input type="email" id="email" name="email" required />
+            </div>
+          </div>
+
+          <div class="input-group">
+            <label for="password">Password</label>
+            <div class="input-wrapper">
+              <i class="fas fa-lock"></i>
+              <input type="password" id="password" name="password" required />
+            </div>
+          </div>
+
+          <div class="input-group">
+            <label for="confirm-password">Confirm Password</label>
+            <div class="input-wrapper">
+              <i class="fas fa-lock"></i>
+              <input type="password" id="confirm-password" name="confirm-password" required />
+            </div>
+          </div>
+
+          <button type="submit">Sign Up</button>
+        </form>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <div class="footer-content">
+      <div class="contact-info">
+        <h2>WOOTING</h2>
+        <p>Questions, feedback or need help?</p>
+        <p>social@wooting.io</p>
+        <div class="social-icons">
+          <a href="#"
+            ><img src="/public/img/github-logo-24.png" alt="Social 1"
+          /></a>
+          <a href="#"
+            ><img src="/public/img/twitter-logo-24.png" alt="Social 2"
+          /></a>
         </div>
       </div>
-    </footer>
-  </body>
+      <div class="footer-links">
+        <a href="#">Home</a>
+        <a href="#">Updates</a>
+        <a href="#">Wootility web</a>
+        <a href="#">Double movement</a>
+        <a href="#">Github</a>
+        <a href="#">About us</a>
+        <a href="#">Contact us</a>
+        <a href="#">Press & marketing</a>
+      </div>
+      <div class="footer-links">
+        <a href="#">Account</a>
+        <a href="#">Order status</a>
+        <a href="#">Help</a>
+        <a href="#">Privacy policy</a>
+        <a href="#">Customer review policy</a>
+        <a href="#">Shipping policy</a>
+        <a href="#">About us</a>
+        <a href="#">Warranty & Return policy</a>
+        <a href="#">Legal notice</a>
+      </div>
+    </div>
+  </footer>
+</body>
 </html>
