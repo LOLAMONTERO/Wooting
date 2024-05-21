@@ -5,6 +5,10 @@ Proyecto final de desarrollo web
 
 4 VISTAS CREADAS, EL INDEX, EL PRODUCTOS, EL REGISTRO Y EL DE AYUDA.
 
+Guarda usuarios en la BD
+![image](https://github.com/cristianfgsda/Wooting/assets/163680997/55be5bd8-39b1-4f58-9710-158427c2a909)
+
+
 
 ## Main page
 
