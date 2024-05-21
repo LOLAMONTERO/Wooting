@@ -5,7 +5,10 @@ Proyecto final de desarrollo web
 
 4 VISTAS CREADAS, EL INDEX, EL PRODUCTOS, EL REGISTRO Y EL DE AYUDA.
 
-Guarda usuarios en la BD
+# NOTA
+Tuve problemas con el NodeJs Ya que las vistas del inicio de sesion no podria solucionarlas, asi que me toco ahcerlas de manera diferente a la version anterior, ahora el inicio esta aparte en otra vista y no integrado en la visa main.
+
+# Guarda usuarios en la BD
 ![image](https://github.com/cristianfgsda/Wooting/assets/163680997/55be5bd8-39b1-4f58-9710-158427c2a909)
 
 
@@ -23,7 +26,7 @@ Este login se encuentra en todas las vistas
 ## Our Products
 ![image](https://github.com/cristianfgsda/Wooting/assets/163680997/f44e477d-8b75-4855-a322-be7e615fac6e)
 
-### Funcionaldiad del carrito de compras agregada, este aparece al precionar en el carrito de compras en la barra de navegacion o agregar un producto a dicho carrito
+
 
 ![image](https://github.com/cristianfgsda/Wooting/assets/163680997/36313584-b2af-497c-a1ac-71458106c8c6)
 
